@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node mern-chat-backend-main/server.js",
-    "dev": "nodemon server.js",
+    "dev": "nodemon mern-chat-backend-main/server.js",
     "build":"npm install && install --prefix mern-chat-frontend-master && npm run build --prefix mern-chat-frontend-master"
   },
   "keywords": [],
